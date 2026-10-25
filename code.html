@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Newsreader:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-tertiary-fixed":"#2a1800","on-tertiary-container":"#ffffff","surface-container-high":"#2a2a2a","secondary-fixed":"#ffdbcc","on-secondary-fixed":"#351000","tertiary":"#f9bb68","tertiary-container":"#9e6c20","on-secondary-container":"#f6a580","error-container":"#93000a","on-surface-variant":"#dec0b9","on-background":"#e5e2e1","surface":"#131313","secondary":"#ffb595","primary-container":"#c25438","inverse-surface":"#e5e2e1","secondary-fixed-dim":"#ffb595","inverse-primary":"#a33d23","primary":"#ffb4a2","on-surface":"#e5e2e1","surface-container-highest":"#353534","outline":"#a58b84","primary-fixed":"#ffdad2","on-tertiary-fixed-variant":"#643f00","secondary-container":"#73391c","on-primary-fixed":"#3c0700","on-secondary-fixed-variant":"#70371a","on-error":"#690005","primary-fixed-dim":"#ffb4a2","on-primary":"#611200","error":"#ffb4ab","surface-container-lowest":"#0e0e0e","on-error-container":"#ffdad6","surface-bright":"#3a3939","background":"#131313","on-secondary":"#542106","surface-container-low":"#1c1b1b","surface-container":"#201f1f","surface-variant":"#353534","surface-dim":"#131313","outline-variant":"#57423d","tertiary-fixed":"#ffddb5","surface-tint":"#ffb4a2","on-primary-fixed-variant":"#83260e","on-primary-container":"#ffffff","on-tertiary":"#462b00","tertiary-fixed-dim":"#f9bb68","inverse-on-surface":"#313030"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-md":"1rem","space-xs":"0.25rem","gutter-mobile":"1rem","space-xl":"3rem","space-lg":"1.75rem","space-sm":"0.5rem","margin-mobile":"1.25rem","margin":"4rem","gutter":"1.5rem"},fontFamily:{"body-sm":["Geist"],"display-xl-mobile":["Newsreader"],"headline-lg-mobile":["Newsreader"],"label-sm":["Geist"],"label-md":["Geist"],"headline-md":["Newsreader"],"body-md":["Newsreader"],"headline-sm":["Newsreader"],"display-xl":["Newsreader"],"label-lg":["Geist"],"body-lg":["Newsreader"],"headline-lg":["Newsreader"]},fontSize:{"body-sm":["14px",{"lineHeight":"22px","letterSpacing":"0.01em","fontWeight":"400"}],"display-xl-mobile":["44px",{"lineHeight":"52px","letterSpacing":"-0.01em","fontWeight":"400"}],"headline-lg-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.16em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.12em","fontWeight":"500"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-md":["17px",{"lineHeight":"28px","letterSpacing":"0.005em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0em","fontWeight":"500"}],"display-xl":["72px",{"lineHeight":"80px","letterSpacing":"-0.02em","fontWeight":"400"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.08em","fontWeight":"500"}],"body-lg":["20px",{"lineHeight":"34px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["44px",{"lineHeight":"52px","letterSpacing":"-0.015em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface-container-lowest text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-[#0B0B0B]/85 backdrop-blur-xl border-b border-outline-variant/30"><div class="h-20 w-full px-gutter-mobile lg:px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><a class="group flex flex-col" data-path="overview" href="#"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface group-hover:text-primary transition-colors">Beyond Broken English</span><span class="font-label-sm text-label-sm uppercase tracking-widest text-outline -mt-1">Nikunj Wakode</span></a></div><div class="flex items-center gap-space-md lg:gap-space-lg"><nav class="hidden sm:flex items-center gap-space-md lg:gap-space-lg" data-active-classes="text-primary font-medium"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="about-the-book" href="#">About the Book</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="chapters" href="#">Chapters</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors" data-path="author-note" href="#">Author Note</a></nav><a class="inline-flex items-center justify-center font-label-lg text-label-lg px-space-md py-space-sm rounded bg-primary-container text-on-primary-container hover:bg-secondary transition-all hover:text-on-secondary shadow-sm" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">Get the Book →</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface-container-lowest"><div class="flex flex-col w-full text-on-surface bg-surface-container-lowest font-body-md overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- Ambient Light Effects (Contained) -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-primary/10 rounded-full blur-[140px] pointer-events-none -z-10"></div>
+<div class="absolute top-[800px] -left-32 w-[500px] h-[500px] bg-tertiary-container/10 rounded-full blur-[160px] pointer-events-none -z-10"></div>
+<div class="absolute top-[1800px] right-0 w-[550px] h-[550px] bg-primary-container/10 rounded-full blur-[160px] pointer-events-none -z-10"></div>
+<!-- ========================================================= -->
+<!-- SECTION 4: CINEMATIC HERO SECTION                         -->
+<!-- ========================================================= -->
+<section class="relative w-full px-gutter-mobile lg:px-margin pt-12 pb-24 md:py-28 flex flex-col items-center text-center">
+<!-- Overline Metadata -->
+<div class="inline-flex items-center gap-space-sm px-3.5 py-1.5 rounded-full bg-surface-container-low shadow-sm mb-8">
+<span class="w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline">Beyond Broken English • By Nikunj Wakode</span>
+</div>
+<!-- Main Serifs Headline -->
+<h1 class="max-w-4xl font-display-xl text-display-xl-mobile md:text-display-xl text-on-surface tracking-tight leading-[1.08] mb-6">
+        You have the words.<br/>
+<span class="italic font-display-xl text-primary">So why are you still silent?</span>
+</h1>
+<!-- Tagline -->
+<p class="max-w-2xl font-body-lg text-body-lg text-on-surface-variant font-light mb-10 leading-relaxed">
+        A simple journey from <span class="text-on-surface font-normal">‘I can’t speak English’</span> to <span class="text-primary italic">‘Let me try.’</span>
+</p>
+<!-- Primary Call to Action -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md mb-16 z-20">
+<a class="inline-flex items-center gap-space-sm px-8 py-3.5 rounded bg-primary-container text-on-primary-container font-label-lg text-label-lg tracking-wide hover:bg-secondary hover:text-on-secondary transition-all shadow-md group" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">
+<span>Get the Book</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-6 py-3.5 rounded bg-surface-container text-on-surface-variant font-label-lg text-label-lg hover:text-on-surface hover:bg-surface-container-high transition-all" href="#narrative-story">
+<span class="material-symbols-outlined text-[18px]">menu_book</span>
+<span>Read the Story</span>
+</a>
+</div>
+<!-- Orbiting Visual Orbit System & Sentence Fragments -->
+<div class="relative w-full max-w-4xl h-64 md:h-80 flex items-center justify-center mt-4">
+<!-- SVG Curved Dotted Connection Line -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none" fill="none" viewbox="0 0 896 320" xmlns="http://www.w3.org/2000/svg">
+<path d="M 60 160 Q 240 40 448 160 T 836 160" stroke="#c25438" stroke-dasharray="4 8" stroke-opacity="0.35" stroke-width="1.5"></path>
+<path d="M 120 220 C 300 280, 580 80, 780 200" stroke="#f9bb68" stroke-dasharray="3 6" stroke-opacity="0.25" stroke-width="1"></path>
+</svg>
+<!-- Orbiting Central Core -->
+<div class="relative z-10 w-28 h-28 md:w-36 md:h-36 rounded-full bg-surface-container flex flex-col items-center justify-center shadow-xl">
+<span class="material-symbols-outlined text-primary text-3xl mb-1">mic</span>
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Unvoiced</span>
+<div class="absolute -inset-2 rounded-full bg-primary/10 animate-ping opacity-25 pointer-events-none"></div>
+</div>
+<!-- Sentence Fragment Chips (Floating Asymmetrically) -->
+<div class="absolute left-4 md:left-12 top-10 bg-surface-container-high px-4 py-2 rounded shadow-sm text-left animate-pulse" style="animation-duration: 4s;">
+<span class="font-label-sm text-label-sm text-outline block uppercase">Fragment 01</span>
+<span class="font-headline-sm text-[16px] text-on-surface italic">“I think...”</span>
+</div>
+<div class="absolute right-6 md:right-16 top-6 bg-surface-container-high px-4 py-2 rounded shadow-sm text-left">
+<span class="font-label-sm text-label-sm text-outline block uppercase">Fragment 02</span>
+<span class="font-headline-sm text-[16px] text-primary italic">“What if I make a mistake?”</span>
+</div>
+<div class="absolute left-8 md:left-24 bottom-6 bg-surface-container px-4 py-2 rounded shadow-sm text-left">
+<span class="font-label-sm text-label-sm text-tertiary block uppercase">Practice</span>
+<span class="font-headline-sm text-[16px] text-on-surface">“Mirror Mantra”</span>
+</div>
+<div class="absolute right-4 md:right-28 bottom-8 bg-primary-container/20 px-4 py-2 rounded shadow-sm text-left">
+<span class="font-label-sm text-label-sm text-secondary block uppercase">Shift</span>
+<span class="font-headline-sm text-[16px] text-on-surface font-medium">“Let me try.”</span>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 5: SCROLL-DRIVEN OPENING STORY                     -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-28 relative" id="narrative-story">
+<div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-start">
+<!-- Pinned / Sticky Left Context Rail -->
+<div class="w-full md:w-1/3 md:sticky md:top-28 flex flex-col gap-4">
+<div class="inline-flex items-center gap-2">
+<span class="w-1.5 h-6 bg-primary-container rounded"></span>
+<span class="font-label-md text-label-md uppercase tracking-widest text-outline">The Inner Dialogue</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface leading-tight">
+            The invisible paralysis before speech.
+          </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Explore the psychological sequence thousands face every single day in boardrooms, classrooms, and daily conversations.
+          </p>
+<!-- Stepper Dots -->
+<div class="flex items-center gap-2 mt-4" id="story-stepper-dots">
+<button class="w-3 h-3 rounded-full bg-primary transition-all duration-300" data-index="0"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="1"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="2"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="3"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="4"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="5"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="6"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="7"></button>
+<button class="w-2 h-2 rounded-full bg-surface-variant transition-all duration-300" data-index="8"></button>
+</div>
+</div>
+<!-- Narrative Lines Stacking -->
+<div class="w-full md:w-2/3 flex flex-col gap-10" id="story-lines-container">
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container opacity-100 shadow-sm" data-step="0">
+<span class="font-label-sm text-label-sm text-outline block mb-2 uppercase">Step 01 / Observation</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface">“You understand English.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="1">
+<span class="font-label-sm text-label-sm text-outline block mb-2 uppercase">Step 02 / The Disconnect</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface">“But speaking feels different.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="2">
+<span class="font-label-sm text-label-sm text-outline block mb-2 uppercase">Step 03 / Internal Clarity</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface">“You know what you want to say.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="3">
+<span class="font-label-sm text-label-sm text-outline block mb-2 uppercase">Step 04 / The Cognitive Jam</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface-variant italic">“You translate it in your head.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="4">
+<span class="font-label-sm text-label-sm text-outline block mb-2 uppercase">Step 05 / The Anticipation</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface">“You worry about making mistakes.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="5">
+<span class="font-label-sm text-label-sm text-outline block mb-2 uppercase">Step 06 / The Resignation</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-outline italic">“So you stay quiet.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="6">
+<span class="font-label-sm text-label-sm text-tertiary block mb-2 uppercase">Step 07 / Epiphany I</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface">“Maybe English isn’t the problem.”</p>
+</div>
+<div class="story-step transition-all duration-500 p-6 md:p-8 rounded bg-surface-container-low opacity-60 hover:opacity-100 shadow-sm" data-step="7">
+<span class="font-label-sm text-label-sm text-tertiary block mb-2 uppercase">Step 08 / Epiphany II</span>
+<p class="font-headline-lg text-headline-md md:text-headline-lg text-secondary">“Maybe it’s the fear of getting it wrong.”</p>
+</div>
+<!-- Step 9: Prominent Climax -->
+<div class="story-step transition-all duration-500 p-8 md:p-12 rounded bg-surface-container-high shadow-xl" data-step="8">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest block mb-4">Step 09 / The Inception</span>
+<p class="font-display-xl text-[32px] md:text-[44px] leading-tight text-on-surface mb-6">
+              “That’s where <span class="text-primary italic underline decoration-primary-container decoration-2 underline-offset-8">Beyond Broken English</span> begins.”
+            </p>
+<div class="flex items-center gap-space-sm pt-4">
+<a class="px-6 py-2.5 rounded bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-secondary hover:text-on-secondary transition-all" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">
+                Discover the Method →
+              </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 6: CINEMATIC "WHAT YOU GET" SECTION               -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-28 bg-surface-container-low relative overflow-hidden">
+<!-- Ambient Canvas Glow Behind Study Space -->
+<div class="absolute inset-0 bg-gradient-to-b from-surface-container-lowest via-transparent to-surface-container-lowest pointer-events-none"></div>
+<div class="max-w-6xl mx-auto relative z-10">
+<div class="flex flex-col items-center text-center mb-16">
+<span class="px-4 py-1.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm uppercase tracking-widest mb-4">
+            WHAT YOU GET
+          </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface max-w-2xl">
+            A quiet sanctuary for vocal transformation.
+          </h2>
+</div>
+<!-- Atmospheric Study Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Radiating Metaphor Visual / Interactive Canvas -->
+<div class="lg:col-span-5 bg-surface-container rounded p-8 flex flex-col items-center justify-center relative min-h-[380px] shadow-lg overflow-hidden group">
+<!-- Simulated Particles & Rays -->
+<div class="absolute w-48 h-48 bg-primary/20 rounded-full blur-[80px] pointer-events-none group-hover:scale-125 transition-transform duration-700"></div>
+<div class="relative z-10 flex flex-col items-center text-center">
+<div class="w-20 h-24 rounded bg-surface-container-highest shadow-2xl flex flex-col items-center justify-center mb-6 relative">
+<span class="material-symbols-outlined text-primary text-4xl">auto_stories</span>
+<div class="absolute -bottom-3 w-16 h-1 bg-primary-container rounded blur-[2px]"></div>
+</div>
+<span class="font-headline-md text-headline-md text-on-surface mb-2">The Written Companion</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">
+                Not a grammar rulebook. A tactile framework designed to free your thoughts in real conversations.
+              </p>
+</div>
+<!-- Ambient Beam Graphic SVG -->
+<svg class="absolute inset-0 w-full h-full opacity-20 pointer-events-none" fill="none" viewbox="0 0 400 400">
+<circle cx="200" cy="200" r="140" stroke="#f9bb68" stroke-dasharray="4 6" stroke-width="1"></circle>
+<circle cx="200" cy="200" r="90" stroke="#c25438" stroke-width="1"></circle>
+</svg>
+</div>
+<!-- Narrative Reveal Grid & Contrast Statements -->
+<div class="lg:col-span-7 flex flex-col gap-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-6 rounded bg-surface-container shadow-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-2 text-2xl">lightbulb</span>
+<h4 class="font-headline-sm text-[18px] text-on-surface mb-1">A different way to look at English</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Untangling English from intelligence and viewing it purely as an open tool.</p>
+</div>
+<div class="p-6 rounded bg-surface-container shadow-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-secondary mb-2 text-2xl">draw</span>
+<h4 class="font-headline-sm text-[18px] text-on-surface mb-1">Simple explanations</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Stripped of linguistic jargon so concepts click immediately in your memory.</p>
+</div>
+<div class="p-6 rounded bg-surface-container shadow-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-tertiary mb-2 text-2xl">record_voice_over</span>
+<h4 class="font-headline-sm text-[18px] text-on-surface mb-1">Practical speaking exercises</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Real-world scenarios you can repeat alone in the quiet of your room.</p>
+</div>
+<div class="p-6 rounded bg-surface-container shadow-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-primary mb-2 text-2xl">psychology_alt</span>
+<h4 class="font-headline-sm text-[18px] text-on-surface mb-1">Grammar without the nightmare</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Conquer modals, tenses, and conditionals without dread or confusion.</p>
+</div>
+</div>
+<!-- LSRW & Decisive Statement -->
+<div class="p-6 rounded bg-surface-container flex flex-col sm:flex-row items-center justify-between gap-4">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded bg-surface-container-highest flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary">headphones</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-[18px] text-on-surface">LSRW resources you can actually use</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Curated listening, speaking, reading, and writing habits for daily flow.</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary shrink-0 bg-primary-container/20 px-3 py-1 rounded">Daily Routine</span>
+</div>
+<!-- Dominant Contrast Callout -->
+<div class="p-8 rounded bg-surface-container-high shadow-lg flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div>
+<div class="font-label-sm text-label-sm uppercase tracking-wider text-outline mb-1">THE PHILOSOPHY</div>
+<div class="text-on-surface-variant font-headline-md text-headline-md line-through opacity-70">
+                  NOT PERFECT ENGLISH.
+                </div>
+<div class="font-display-xl text-[36px] md:text-[44px] text-primary tracking-tight font-bold">
+                  PRACTICAL ENGLISH.
+                </div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs italic">
+                “And most importantly — a reason to speak.”
+              </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 7: THREE-CARD TRANSFORMATION                      -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-28 relative">
+<div class="max-w-6xl mx-auto flex flex-col">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline block mb-2">Three Core Pillars</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">
+              Structure → Speak → Strengthen
+            </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+            English gets easier when you stop treating every sentence like a test.
+          </p>
+</div>
+<!-- 3 Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- CARD 01 -->
+<div class="rounded bg-surface-container p-8 flex flex-col justify-between shadow-sm hover:-translate-y-1 transition-all duration-300 group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline group-hover:text-primary transition-colors">01 — STRUCTURE</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">schema</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 leading-snug">
+                Build sentences, not fear.
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                Learn simple sentence structures so you don’t have to translate every thought in your head.
+              </p>
+</div>
+<div class="w-full h-48 rounded overflow-hidden bg-surface-container-high relative flex items-center justify-center">
+<img alt="Chapter 1 The English Problem visual showing classroom thought bubbles" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqxqQGy0EbLZr8Zjgd401GHUqbZlsLAURi82XpfnqCJSIRJz-6SSd-QKzP1Z9Jeg2R_dO3RKxb_TAEe-obylSFhnhu-w9d0OXovMKW2A9ZipghUVRLx2776_ZVGLShVgwGTaknKKmOLA7sUD8XfX2Gvy6dNWRW0rF1v9VBDdlq9soJLd0CJL3A6JeLYaE5xBOu6f8fQ_8jLfiDWUaTV3OsdntjIWUR2896MM3d1zo8s_giL5WGn_iAnhd6PLHVZHH4MNw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+</div>
+</div>
+<!-- CARD 02 -->
+<div class="rounded bg-surface-container p-8 flex flex-col justify-between shadow-sm hover:-translate-y-1 transition-all duration-300 group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline group-hover:text-secondary transition-colors">02 — SPEAK</span>
+<span class="material-symbols-outlined text-outline group-hover:text-secondary transition-colors">face</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 leading-snug">
+                Speak before you’re ready.
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                Use the Mirror Mantra and everyday speaking practice to get comfortable hearing your own English voice.
+              </p>
+</div>
+<div class="w-full h-48 rounded overflow-hidden bg-surface-container-high relative flex items-center justify-center">
+<img alt="Chapter 2 Grammar The Friendly Nightmare showing late night study and shadows" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsngivcEKdPIObkR5FJGgIUEroe41Ju9SrxvXgjdhKWQ735zrZirvs3t3Hq7nFYWKQjYOib5G8AZAJjqVUXNqSCDTUAqWRkS8s_Xs4v2D3JCnIWfOddGrA2VVOPhTP1S0I4FV0AsgRQl3PDGEmYlMUWSa_I--ikEndk3Cdv68pDVFmaedlVvAJmZN0rjwdzgoT9PZX5E0Ktox7LuEfaHGYWk0HyskPraEOrlpWp8Qyg9y0s8Sz37lQjm-Glg8BsDgo5Uc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container via-transparent to-transparent"></div>
+</div>
+</div>
+<!-- CARD 03 -->
+<div class="rounded bg-surface-container p-8 flex flex-col justify-between shadow-sm hover:-translate-y-1 transition-all duration-300 group">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline group-hover:text-tertiary transition-colors">03 — STRENGTHEN</span>
+<span class="material-symbols-outlined text-outline group-hover:text-tertiary transition-colors">trending_up</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3 leading-snug">
+                Turn practice into progress.
+              </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+                Work on Listening, Speaking, Reading & Writing together — one small habit at a time.
+              </p>
+</div>
+<!-- Stylized LSRW Convergence Graphic -->
+<div class="w-full h-48 rounded bg-surface-container-high p-4 flex flex-col items-center justify-center text-center relative overflow-hidden group-hover:bg-surface-container-highest transition-colors">
+<div class="grid grid-cols-2 gap-2 w-full max-w-[200px]">
+<div class="bg-surface p-2 rounded text-center">
+<span class="font-label-sm text-[10px] text-outline block">LISTEN</span>
+</div>
+<div class="bg-surface p-2 rounded text-center">
+<span class="font-label-sm text-[10px] text-outline block">SPEAK</span>
+</div>
+<div class="bg-surface p-2 rounded text-center">
+<span class="font-label-sm text-[10px] text-outline block">READ</span>
+</div>
+<div class="bg-surface p-2 rounded text-center">
+<span class="font-label-sm text-[10px] text-outline block">WRITE</span>
+</div>
+</div>
+<div class="mt-3 px-3 py-1 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm">
+                Habitual Flow
+              </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 8: HOW IT WORKS — STICKY SCROLL SECTION           -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-28 bg-surface-container-low relative">
+<div class="max-w-6xl mx-auto">
+<div class="mb-12">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline block mb-2">The Systematic Process</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">How It Works.</h2>
+</div>
+<!-- Interactive Switcher / Sticky Container -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Visual Demonstrator (Dynamically Switches or Interactive) -->
+<div class="lg:col-span-6 lg:sticky lg:top-28 rounded bg-surface-container p-8 shadow-md min-h-[460px] flex flex-col justify-between" id="how-it-works-visual">
+<!-- Dynamic State 1 Visual (Active Default) -->
+<div class="step-visual flex flex-col h-full justify-between" id="visual-step-1">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary block mb-2">Structure Transformation</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-6">From Tangled Thoughts to Direct Speech</h4>
+</div>
+<!-- SVG Visual of Tangled Thoughts Unraveling -->
+<div class="w-full bg-surface-container-high rounded p-6 my-4 flex flex-col gap-4">
+<div class="flex items-center gap-3">
+<span class="w-2.5 h-2.5 rounded-full bg-error"></span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-through">Overthought: "I wanted to say that since yesterday it was having..."</span>
+</div>
+<div class="flex items-center justify-center my-1 text-primary">
+<span class="material-symbols-outlined">south</span>
+</div>
+<div class="flex items-center gap-3 bg-surface p-3.5 rounded">
+<span class="w-2.5 h-2.5 rounded-full bg-primary-container"></span>
+<span class="font-headline-sm text-[16px] text-on-surface font-medium">“I started the project yesterday.”</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm mt-4">
+<span>Direct Subject + Verb Structure</span>
+<span class="text-primary">Instant Response</span>
+</div>
+</div>
+<!-- Dynamic State 2 Visual -->
+<div class="step-visual hidden flex flex-col h-full justify-between" id="visual-step-2">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block mb-2">Safe Reflection Practice</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-6">The Mirror Mantra In Action</h4>
+</div>
+<div class="w-full bg-surface-container-high rounded p-6 flex flex-col gap-3">
+<div class="bg-surface p-3 rounded shadow-sm text-left">
+<span class="font-label-sm text-label-sm text-outline block">Self-Speech 01</span>
+<p class="font-headline-sm text-[16px] text-on-surface">“Today I went to college.”</p>
+</div>
+<div class="bg-surface p-3 rounded shadow-sm text-left ml-4">
+<span class="font-label-sm text-label-sm text-outline block">Self-Speech 02</span>
+<p class="font-headline-sm text-[16px] text-on-surface">“I had two classes.”</p>
+</div>
+<div class="bg-surface p-3 rounded shadow-sm text-left ml-8">
+<span class="font-label-sm text-label-sm text-outline block">Self-Speech 03</span>
+<p class="font-headline-sm text-[16px] text-primary">“I was tired, but I still enjoyed the day.”</p>
+</div>
+</div>
+<div class="text-outline font-label-sm text-label-sm mt-4">
+                No audience. Zero judgment. Muscle memory built daily.
+              </div>
+</div>
+<!-- Dynamic State 3 Visual -->
+<div class="step-visual hidden flex flex-col h-full justify-between" id="visual-step-3">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-tertiary block mb-2">Convergence System</span>
+<h4 class="font-headline-md text-headline-md text-on-surface mb-6">LSRW into Pure Confidence</h4>
+</div>
+<div class="relative w-full aspect-square max-h-56 mx-auto flex items-center justify-center my-2">
+<div class="absolute inset-0 grid grid-cols-2 gap-2">
+<div class="bg-surface-container-high rounded p-3 text-center flex flex-col justify-center">
+<span class="font-label-sm text-[11px] text-outline font-semibold">LISTEN</span>
+<span class="text-[12px] text-on-surface-variant">Active Audio</span>
+</div>
+<div class="bg-surface-container-high rounded p-3 text-center flex flex-col justify-center">
+<span class="font-label-sm text-[11px] text-outline font-semibold">SPEAK</span>
+<span class="text-[12px] text-on-surface-variant">Micro-Phrases</span>
+</div>
+<div class="bg-surface-container-high rounded p-3 text-center flex flex-col justify-center">
+<span class="font-label-sm text-[11px] text-outline font-semibold">READ</span>
+<span class="text-[12px] text-on-surface-variant">Natural Cadence</span>
+</div>
+<div class="bg-surface-container-high rounded p-3 text-center flex flex-col justify-center">
+<span class="font-label-sm text-[11px] text-outline font-semibold">WRITE</span>
+<span class="text-[12px] text-on-surface-variant">One Line Journal</span>
+</div>
+</div>
+<div class="relative z-10 w-24 h-24 rounded-full bg-primary-container text-on-primary-container flex flex-col items-center justify-center shadow-2xl">
+<span class="material-symbols-outlined text-2xl">verified</span>
+<span class="font-label-sm text-[9px] uppercase tracking-wider font-bold">CONFIDENCE</span>
+</div>
+</div>
+<div class="text-outline font-label-sm text-label-sm mt-4">
+                Compound growth replacing rule-memorization.
+              </div>
+</div>
+</div>
+<!-- Right Step Content Cards (Click or Scroll to Switch) -->
+<div class="lg:col-span-6 flex flex-col gap-8">
+<!-- STEP 01 CARD -->
+<div class="step-card cursor-pointer p-8 rounded bg-surface-container transition-all duration-300 relative overflow-hidden group shadow-sm" data-step-target="1">
+<span class="absolute top-2 right-4 font-display-xl text-[80px] text-surface-container-high font-bold select-none pointer-events-none group-hover:text-primary-container/20 transition-colors">01</span>
+<div class="relative z-10">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary block mb-2">STEP 01</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-1">Structure first.</h3>
+<p class="font-headline-sm text-[18px] text-primary italic mb-4">Stop translating. Start forming.</p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  Learn how simple sentence structures can help you turn your thoughts into English without getting stuck on every single word.
+                </p>
+</div>
+</div>
+<!-- STEP 02 CARD -->
+<div class="step-card cursor-pointer p-8 rounded bg-surface-container-low hover:bg-surface-container transition-all duration-300 relative overflow-hidden group shadow-sm" data-step-target="2">
+<span class="absolute top-2 right-4 font-display-xl text-[80px] text-surface-container-high font-bold select-none pointer-events-none group-hover:text-secondary/20 transition-colors">02</span>
+<div class="relative z-10">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary block mb-2">STEP 02</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-1">Speak anyway.</h3>
+<p class="font-headline-sm text-[18px] text-secondary italic mb-4">Your first sentences don’t need to be perfect.</p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  The Mirror Mantra helps you practise English when nobody is judging you — just you, your reflection and a few minutes of courage.
+                </p>
+</div>
+</div>
+<!-- STEP 03 CARD -->
+<div class="step-card cursor-pointer p-8 rounded bg-surface-container-low hover:bg-surface-container transition-all duration-300 relative overflow-hidden group shadow-sm" data-step-target="3">
+<span class="absolute top-2 right-4 font-display-xl text-[80px] text-surface-container-high font-bold select-none pointer-events-none group-hover:text-tertiary/20 transition-colors">03</span>
+<div class="relative z-10">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-tertiary block mb-2">STEP 03</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-1">Strengthen through practice.</h3>
+<p class="font-headline-sm text-[18px] text-tertiary italic mb-4">Listen. Speak. Read. Write.</p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                  Build your English through LSRW, useful resources and consistent practice — instead of memorising rules you’ll never use in real life.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 9: TRANSITION SECTION (BREATHING ROOM)            -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-36 relative flex flex-col items-center justify-center text-center">
+<div class="max-w-3xl mx-auto flex flex-col gap-6">
+<div class="w-12 h-0.5 bg-primary-container mx-auto mb-2"></div>
+<p class="font-display-xl text-display-xl-mobile md:text-headline-lg text-outline leading-tight">
+          “You don’t need to become fluent overnight.”
+        </p>
+<p class="font-display-xl text-display-xl-mobile md:text-headline-lg text-on-surface italic font-medium leading-tight">
+          “You just need to start using the English you already have.”
+        </p>
+<div class="w-12 h-0.5 bg-primary-container mx-auto mt-2"></div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 10: TESTIMONIAL SECTION (HORIZONTAL DRAGGABLE)     -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-28 bg-surface-container-low relative">
+<div class="max-w-6xl mx-auto">
+<div class="flex items-center justify-between mb-12">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-outline block mb-2">Reader Reflections</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Words people shared.</h2>
+</div>
+<!-- Carousel Navigation Controls -->
+<div class="flex items-center gap-3">
+<button class="w-11 h-11 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all shadow-sm" id="carousel-prev">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+</button>
+<button class="w-11 h-11 rounded-full bg-surface-container hover:bg-surface-container-high text-on-surface flex items-center justify-center transition-all shadow-sm" id="carousel-next">
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Draggable Carousel Track -->
+<div class="flex gap-6 overflow-x-auto pb-8 pt-2 scroll-smooth cursor-grab select-none no-scrollbar" id="testimonial-carousel">
+<!-- Testimonial 1 -->
+<div class="min-w-[320px] md:min-w-[380px] max-w-[420px] rounded bg-surface-container p-8 flex flex-col justify-between shadow-sm shrink-0 hover:bg-surface-container-high transition-colors">
+<div>
+<span class="material-symbols-outlined text-primary text-3xl mb-4">format_quote</span>
+<p class="font-headline-sm text-headline-sm text-on-surface leading-snug mb-6">
+                “The book is greatt, its actually very practical and to the point”
+              </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/20">
+<img alt="Godhuli Vyas" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEh1bBQrDZN3Hh4eWzpLVGvWJmXmwarLsniw2M2TPOuexArsURz6ras9Wzcxv-QsgPH5kVQo7LuQXzrRAhQ5vQth8d2BwkKpBJZdRjYNX9C-jgKFs6E6GP4wb3N3vmL9Qf2X__PI6p0OI0aqGpQTG2RIfgLLti7GUoriv1XR4rOk0R9hxi5cHn0W5KNsx_3b8_IxFRBdOzpsvAAAsmnzioAiYECTOpXxB6OAoOFiFXLumDwzZDvQhZSikJU1oWnLVEj-M"/>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">Godhuli Vyas</h4>
+<p class="font-body-sm text-body-sm text-outline">DevOps at EY</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="min-w-[320px] md:min-w-[380px] max-w-[420px] rounded bg-surface-container p-8 flex flex-col justify-between shadow-sm shrink-0 hover:bg-surface-container-high transition-colors">
+<div>
+<span class="material-symbols-outlined text-secondary text-3xl mb-4">format_quote</span>
+<p class="font-headline-sm text-headline-sm text-on-surface leading-snug mb-6">
+                “The ideas are easy to understand and actually feel doable in everyday life. Great work on this!”
+              </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/20">
+<img alt="Niranjani" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpI5BqaeMR59K55EbMH5a3DIXbw8eI9Tg8A-BAAwBNmxdRfDR3AcurL2ZqxSbRe4A-jbZY3hc8aVS0TpEVcvppTZt1jCMVift-AgYCKK93p35hOrplfrAbMd45fZFDyZw3josuPx7_APkl592BS0s5M-0ItRgzD7di_IfDVGA34O_2z0ao3Abh1iwAXqu_3CGSBODs-d-_VZcm5vT6v_Mluux__xRMqmLQBBDi6wiDs5MQZP4OKy_YOg3oFJmzm7j5RyI"/>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">Niranjani</h4>
+<p class="font-body-sm text-body-sm text-outline">Designer</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="min-w-[320px] md:min-w-[380px] max-w-[420px] rounded bg-surface-container p-8 flex flex-col justify-between shadow-sm shrink-0 hover:bg-surface-container-high transition-colors">
+<div>
+<span class="material-symbols-outlined text-tertiary text-3xl mb-4">format_quote</span>
+<p class="font-headline-sm text-headline-sm text-on-surface leading-snug mb-6">
+                “A really thoughtful initiative! I like how it focuses on confidence and practice rather than just perfect grammar.”
+              </p>
+</div>
+<div class="flex items-center gap-4 pt-4 border-t border-outline-variant/20">
+<img alt="Gopesh Ojha" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpBF9QCW8Oq3sfM99TQYpqF_7upvA_-AWalwn9x4jbdkF1b3RpnGlwRJqtld_UHb2l7MLtgQ1D7cMj8M4Hj9E7E8h5K-gq7qJ55u227ICM8YLrg8LkeCbOyXE5__AlGrNirOCr8diBOjgMtn_SKJmsl_hwboF_Pge54YoG9RTH_rBqCpRUeZeVqSWTlkrlKqJfdl1tndUsw9EvSKwoSIyXZNVxE1EAtbmvIqZ0XquPCnw73APq32xxsn0DEiVFpc4Ocbk"/>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">Gopesh Ojha</h4>
+<p class="font-body-sm text-body-sm text-outline">Communication trainer</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Prompt -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 mt-10 p-6 rounded bg-surface-container">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-on-surface">What’s your first sentence?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Maybe it’s time to say it out loud.</span>
+</div>
+<a class="px-6 py-2.5 rounded bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-secondary hover:text-on-secondary transition-all shrink-0" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">
+            Start Today →
+          </a>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 11: FINAL PURCHASE SECTION                         -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin py-28 relative">
+<div class="max-w-6xl mx-auto rounded-xl bg-surface-container p-8 md:p-16 shadow-2xl relative overflow-hidden">
+<!-- Ambient radial glow behind the book -->
+<div class="absolute -top-24 right-0 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Pristine 3D Book Mockup Display -->
+<div class="lg:col-span-5 flex items-center justify-center">
+<div class="relative group">
+<img alt="Beyond Broken English Book Cover" class="max-h-[520px] object-contain drop-shadow-[0_25px_50px_rgba(0,0,0,0.8)] mx-auto rounded-lg transition-transform duration-500 group-hover:scale-[1.02]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB27Kd6Z1s_J59N3d5w59pLlSDOoE57KCNH_7SnmvVmsbyruEdkSzKlAI2Euhb__RnE4SVXPwO8LwaSvhS4YXqaNvHHNplQSMCX4KrwI3BvkJdD8OzNfzPR-eHmAZE04brTgYDMsG8m_puvnZzobncC3jXkUtquck6D6gARVAoCIIwP633A-4uHl9_QqZENd5ArwnpCFDr2ipDamXAn_y4Uxfi9YqfT0BT6mpITu7T0auHPHXmTwQZyDoCX0PcXtPoM-vQ"/>
+</div>
+</div>
+<!-- Purchase Details & Conversion -->
+<div class="lg:col-span-7 flex flex-col items-start">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-widest mb-4">
+              Instant Digital Download
+            </div>
+<h2 class="font-display-xl text-display-xl-mobile md:text-headline-lg text-on-surface leading-tight mb-2">
+              Start your journey.
+            </h2>
+<p class="font-headline-sm text-headline-sm text-primary italic mb-6">
+              One sentence at a time.
+            </p>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 max-w-lg leading-relaxed">
+              Unlock the complete practical guide by Nikunj Wakode. Dive into the Mirror Mantra, unlearn cognitive translation anxiety, and gain access to curated LSRW frameworks designed for everyday reality.
+            </p>
+<!-- Info Badges Row -->
+<div class="flex flex-wrap items-center gap-3 mb-10">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">menu_book</span>
+<span>Practical guide</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">devices</span>
+<span>Digital e-book</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-tertiary">all_inclusive</span>
+<span>Lifetime access</span>
+</div>
+</div>
+<!-- Big CTA -->
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm px-10 py-4 rounded bg-primary-container text-on-primary-container font-label-lg text-label-lg uppercase tracking-wider font-semibold hover:bg-secondary hover:text-on-secondary transition-all shadow-xl group" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">
+<span>GET THE BOOK →</span>
+</a>
+<span class="font-label-sm text-label-sm text-outline">Direct checkout via SuperProfile</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================================= -->
+<!-- SECTION 13: FINAL FOOTER CTA BAR                           -->
+<!-- ========================================================= -->
+<section class="w-full px-gutter-mobile lg:px-margin pb-20 pt-4">
+<div class="max-w-6xl mx-auto rounded-xl bg-surface-container-low p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-sm">
+<div class="flex flex-col text-center md:text-left">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">
+            Ready to stop overthinking English?
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Take the first step. Start with one sentence.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-6">
+<a class="px-8 py-3.5 rounded bg-primary-container text-on-primary-container font-label-lg text-label-lg hover:bg-secondary hover:text-on-secondary transition-all shadow-md" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">
+            Get the Book →
+          </a>
+<span class="font-label-sm text-label-sm text-outline">
+            © 2026 Nikunj Wakode
+          </span>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Vanilla Micro-Interactions Script -->
+<script>
+  (function() {
+    // 1. Story Stepper Active State Sync on Scroll
+    const steps = document.querySelectorAll('.story-step');
+    const dots = document.querySelectorAll('#story-stepper-dots button');
+
+    if (steps.length && dots.length) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const index = entry.target.getAttribute('data-step');
+            steps.forEach(s => s.classList.replace('opacity-100', 'opacity-60'));
+            entry.target.classList.replace('opacity-60', 'opacity-100');
+
+            dots.forEach(d => {
+              if (d.getAttribute('data-index') === index) {
+                d.classList.replace('w-2', 'w-3');
+                d.classList.replace('h-2', 'h-3');
+                d.classList.replace('bg-surface-variant', 'bg-primary');
+              } else {
+                d.classList.replace('w-3', 'w-2');
+                d.classList.replace('h-3', 'h-2');
+                d.classList.replace('bg-primary', 'bg-surface-variant');
+              }
+            });
+          }
+        });
+      }, { threshold: 0.6 });
+
+      steps.forEach(step => observer.observe(step));
+
+      dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+          const targetIndex = dot.getAttribute('data-index');
+          const targetStep = document.querySelector(`.story-step[data-step="${targetIndex}"]`);
+          if (targetStep) {
+            targetStep.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          }
+        });
+      });
+    }
+
+    // 2. How It Works Step Switcher
+    const stepCards = document.querySelectorAll('.step-card');
+    const stepVisuals = {
+      1: document.getElementById('visual-step-1'),
+      2: document.getElementById('visual-step-2'),
+      3: document.getElementById('visual-step-3')
+    };
+
+    stepCards.forEach(card => {
+      card.addEventListener('mouseenter', () => activateStep(card.getAttribute('data-step-target')));
+      card.addEventListener('click', () => activateStep(card.getAttribute('data-step-target')));
+    });
+
+    function activateStep(stepNum) {
+      stepCards.forEach(c => {
+        if (c.getAttribute('data-step-target') === stepNum) {
+          c.classList.replace('bg-surface-container-low', 'bg-surface-container');
+        } else {
+          c.classList.replace('bg-surface-container', 'bg-surface-container-low');
+        }
+      });
+
+      Object.keys(stepVisuals).forEach(k => {
+        if (stepVisuals[k]) {
+          if (k === stepNum) {
+            stepVisuals[k].classList.remove('hidden');
+          } else {
+            stepVisuals[k].classList.add('hidden');
+          }
+        }
+      });
+    }
+
+    // 3. Horizontal Draggable Carousel Logic
+    const carousel = document.getElementById('testimonial-carousel');
+    const nextBtn = document.getElementById('carousel-next');
+    const prevBtn = document.getElementById('carousel-prev');
+
+    if (carousel) {
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+
+      carousel.addEventListener('mousedown', (e) => {
+        isDown = true;
+        carousel.classList.add('cursor-grabbing');
+        startX = e.pageX - carousel.offsetLeft;
+        scrollLeft = carousel.scrollLeft;
+      });
+
+      carousel.addEventListener('mouseleave', () => {
+        isDown = false;
+        carousel.classList.remove('cursor-grabbing');
+      });
+
+      carousel.addEventListener('mouseup', () => {
+        isDown = false;
+        carousel.classList.remove('cursor-grabbing');
+      });
+
+      carousel.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - carousel.offsetLeft;
+        const walk = (x - startX) * 1.5;
+        carousel.scrollLeft = scrollLeft - walk;
+      });
+
+      if (nextBtn) {
+        nextBtn.addEventListener('click', () => {
+          carousel.scrollBy({ left: 380, behavior: 'smooth' });
+        });
+      }
+      if (prevBtn) {
+        prevBtn.addEventListener('click', () => {
+          carousel.scrollBy({ left: -380, behavior: 'smooth' });
+        });
+      }
+    }
+  })();
+</script></main><footer class="w-full bg-[#0B0B0B] border-t border-outline-variant/20 mt-space-xl"><div class="w-full px-gutter-mobile lg:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col items-center md:items-start gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface">Beyond Broken English</span><p class="font-body-sm text-body-sm text-outline">A literary journey from internal paralysis to vocal liberation.</p></div><div class="flex items-center gap-space-lg font-label-md text-label-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors" data-path="about-the-book" href="#">About the Book</a><a class="hover:text-primary transition-colors" href="https://superprofile.bio/vp/beyond-broken-english" rel="noopener noreferrer" target="_blank">Order Copy</a><a class="hover:text-on-surface transition-colors" data-path="press-kit" href="#">Press & Media</a></div><div class="font-label-sm text-label-sm text-outline">© 2024 Nikunj Wakode. All rights reserved.</div></div></footer></body></html>
